@@ -13,11 +13,6 @@ public class BinarySearchTree {
         return root;
     }
 
-    public void setRoot(TreeNode root) {
-        this.root = root;
-    }
-
-
     /**
      * Insert data from root. This will call TreeNode's insert method.
      * @param data
@@ -40,6 +35,15 @@ public class BinarySearchTree {
             return root.find(data);
         }
         return null;
+    }
+
+    /**
+     * Does the inorder traversal of the BST
+     *
+     * @return String representing the inorder traversal sequence
+     */
+    public String inOrderTraversal() {
+        return "";
     }
 
 }

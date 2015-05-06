@@ -60,4 +60,11 @@ public class BinarySearchTreeTest {
         assertEquals("Node 12 must be present", 12, bst.find(12).getData().intValue());
         assertNull(bst.find(21));
     }
+
+    @Test
+    public void testInorderTraversal() throws Exception {
+        bst.insert(new Integer(10));
+        bst.insert(new Integer(12));
+        bst.insert(new Integer(8));
+    }
 }
