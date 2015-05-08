@@ -37,13 +37,5 @@ public class BinarySearchTree {
         return null;
     }
 
-    /**
-     * Does the inorder traversal of the BST
-     *
-     * @return String representing the inorder traversal sequence
-     */
-    public String inOrderTraversal() {
-        return "";
-    }
 
 }

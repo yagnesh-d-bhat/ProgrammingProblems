@@ -61,10 +61,4 @@ public class BinarySearchTreeTest {
         assertNull(bst.find(21));
     }
 
-    @Test
-    public void testInorderTraversal() throws Exception {
-        bst.insert(new Integer(10));
-        bst.insert(new Integer(12));
-        bst.insert(new Integer(8));
-    }
 }
